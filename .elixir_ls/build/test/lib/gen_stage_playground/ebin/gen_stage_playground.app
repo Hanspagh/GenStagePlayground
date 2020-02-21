@@ -1,0 +1,11 @@
+{application,gen_stage_playground,
+             [{applications,[kernel,stdlib,elixir,logger,faker,gen_stage,
+                             flow]},
+              {description,"gen_stage_playground"},
+              {modules,['Elixir.GenStagePlayground',
+                        'Elixir.GenStagePlayground.Booking',
+                        'Elixir.GenStagePlayground.CustomerRegisterService',
+                        'Elixir.GenStagePlayground.Data',
+                        'Elixir.GenStagePlayground.Help']},
+              {registered,[]},
+              {vsn,"0.1.0"}]}.
